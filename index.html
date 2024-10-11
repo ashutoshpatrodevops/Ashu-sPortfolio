@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashu's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Ashu'sPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Qualifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h1>
+                    Hey, I am Ashutosh Patro 
+                    <br>
+                    <span id="typed-text"></span>
+                    <br>
+                    pre final year student from NIST University.
+                </h1>
+                <a href="ASHUTOSH PATROCV.pdf" download class="download-btn">Download My CV</a>
+                <a href="https://www.linkedin.com/in/ashutosh-patro-2054b7239" target="_blank" class="download-btn">LinkedIn Profile</a>
+
+            </div>
+            <div class="about-photo">
+                <img src="DocScanner Jun 15, 2023 13.42.jpg" alt="Ashutosh Patro">
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education-section">
+        <h2>Qualifications</h2>
+        <div class="education-content">
+            <!-- Bachelor's Degree -->
+            <div class="education-row">
+                <div class="education-left">
+                    <h3>Bachelor's In Technology(B. Tech)</h3>
+                    <p><strong>Institution:</strong>NIST University, Pallur Hills, Berhampur, Odisha, 761008</p>
+                    <p><strong>Branch:</strong> Computer Science And Enginnering(CSE)</p>
+                    <p><strong>CGPA:</strong> 9.35</p>
+                    <p><strong>SGPA:</strong> 9.36</p>
+                    <p><strong>Year:</strong> 2022 September- Present</p>
+                </div>
+                <div class="education-right">
+                    <p><strong>Certificate:</strong></p>
+                    <a href="btech.jpg" target="_blank" class="certificate-btn">View Certificate</a>
+                </div>
+            </div>
+            <!-- 12th Grade -->
+            <div class="education-row">
+                <div class="education-left">
+                    <h3>12th Grade</h3>
+                    <p><strong>Institution:</strong>Khallikote Higher Secondary School, Berhampur, Odisha, 761002</p>
+                    <p><strong>Marks:</strong> 84%</p>
+                    <p><strong>Board:</strong> Board of Secondary Educaton(BSE), Odisha</p>
+                    <p><strong>Subjects:</strong> Physics, Chemistry, Matheatics, Biology</p>
+                    <p><strong>Year:</strong>2020 July - 2022 March</p>
+                </div>
+                <div class="education-right">
+                    <p><strong>Certificate:</strong></p>
+                    <a href="12th.jpg" target="_blank" class="certificate-btn">View Certificate</a>
+                </div>
+            </div>
+            <!-- 10th Grade -->
+            <div class="education-row">
+                <div class="education-left">
+                    <h3>10th Grade</h3>
+                    <p><strong>Institution:</strong> Government High School, Sihala, Konisi, Ganjam, 761008</p>
+                    <p><strong>Marks:</strong> 84%</p>
+                    <p><strong>Board:</strong> Council of Higher Secondary Education, Odisha</p>
+                    <p><strong>Year:</strong> 2020 March</p>
+                </div>
+                <div class="education-right">
+                    <p><strong>Certificate:</strong></p>
+                    <a href="10th.jpg" target="_blank" class="certificate-btn">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Data Structures & Algorithms (DSA)</h3>
+                <p>Adeqaute knowledge in all the concept of DSA such as linkedlist,array,stack,queue,binary tree, hashmap, segment tree</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="82%">
+                        <span class="tooltip">82%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Profficient in javas core architecture as well as java full stack, ODBC, JDK, JVM etc.</p>
+                <br>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="87%">
+                        <span class="tooltip">87%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Appropriate knowledge in implementing python using its library and modules such as pandas,seaborn,matplotlib,pytorch etc</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%">
+                        <span class="tooltip">90%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>C</h3>
+                <div class="progress-bar">
+                    <div class="progress" data-width="90%">
+                        <span class="tooltip">90%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <br>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="94%">
+                        <span class="tooltip">94%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Vanilla css along with core concepts Bootstrap and Tailwind</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="95%">
+                        <span class="tooltip">95%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Little knowledge about DOM and several concepts of javascript data structures and Typescript</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="80%">
+                        <span class="tooltip">80%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Frameworks</h3>
+                <p>Django, React, Next, MERN Stack</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="70%">
+                        <span class="tooltip">70%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>Machine Learning</h3>
+                <p>Support vector machine, KNN, K-Means, Random Forest, Decision Tree</p>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="79%">
+                        <span class="tooltip">79%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>DBMS</h3>
+                <p>Oracle,mongoDB, OrientDB, Apache</p>
+                <br>
+                <br>
+                <div class="progress-bar">
+                    <div class="progress" data-width="67%">
+                        <span class="tooltip">67%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skill-card">
+                <h3>DevOps Concepts (Docker, Kubernetes, etc.)</h3>
+                <p>Choosen as my domain, learning the architecture of cloud, infrastructure management, containerazation etc </p>
+                <div class="progress-bar">
+                    <div class="progress" data-width="60%">
+                        <span class="tooltip">60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-container">
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>The Google Cloud Arcade Facilitator's Program</h3>
+                    <p><strong>Venue:</strong>GDSC NIST</p>
+                    <p><strong>Date:</strong> April 2024</p>
+                    <p><strong>Description:</strong> The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards claiming swag prizes and Google Cloud goodies..</p>
+                </div>
+                <!-- <div class="certification-image">
+                    <img src="GC-arcade-header-diwali.png" alt="Certificate Image" />
+                </div> -->
+            </div>
+    
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>The Google Cloud Study Jam</h3>
+                    <p><strong>Venue:</strong>GDSC NIST</p>
+                    <p><strong>Date:</strong> june 2024</p>
+                    <p><strong>Description:</strong> Cloud Study Jams bring together developers to learn about Google Cloud technologies through study party events. From containerizing applications to data engineering, Study Jams can be tailored to specific Cloud topics and skill levels.</p>
+                </div>
+                <div class="certification-image">
+                    <img src="studyjam.jpg" alt="Certificate Image" />
+                </div>
+            </div>
+    
+            <!-- Add more certification cards as needed -->
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>30 Days workshop on Python Using ML/DL</h3>
+                    <p><strong>Venue:</strong>NIST Skill Developement</p>
+                    <p><strong>Date:</strong> july 2024</p>
+                    <p><strong>Description:</strong> Machine learning involves training algorithms to identify patterns and relationships in data. Deep learning, on the other hand, uses complex neural networks with multiple layers to analyze more intricate patterns and relationships.</p>
+                </div>
+                <div class="certification-image">
+                    <img src="internship.jpg" alt="Certificate Image" />
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>NPTEL Certification from IIT Madras</h3>
+                    <p><strong>Venue:</strong>NPTEL</p>
+                    <p><strong>Date:</strong> October 2023</p>
+                    <p><strong>Description:</strong> NPTEL is an acronym for National Programme on Technology Enhanced Learning which is an initiative by seven Indian Institutes of Technology (IIT Bombay, Delhi, Guwahati, Kanpur, Kharagpur, Madras and Roorkee) and Indian Institute of Science (IISc) for creating course contents in engineering and science.</p>
+                </div>
+                <div class="certification-image">
+                    <img src="nptel.jpg" alt="Certificate Image" />
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>2 Days Workshop On Blender 3D Modelling</h3>
+                    <p><strong>Venue:</strong>NIST</p>
+                    <p><strong>Date:</strong>july 2023</p>
+                    <p><strong>Description:</strong> Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.</p>
+                </div>
+                <div class="certification-image">
+                    <img src="blender.jpg" alt="Certificate Image" />
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="certification-info">
+                    <h3>Google Cloud GenAI Study Jam</h3>
+                    <p><strong>Venue:</strong>GDSC NIST</p>
+                    <p><strong>Date:</strong>December 2023</p>
+                    <p><strong>Description:</strong> A event organized by google developers students clubs for interactive participation of gen ai,ml,NLP using google cloud and it's services</p>
+                </div>
+                <div class="certification-image">
+                    <img src="genaijam2.jpg" alt="Certificate Image" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="logo">Ashu'sPortfolio</div>
+            <div class="social-links">
+                <a href="mailto:ashutoshpatro9087@gmail.com" target="_blank">
+                    <i class="bi bi-envelope"></i>
+                </a>
+                <a href="https://wa.me/7847810210" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://twitter.com/@coderashu" target="_blank">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://medium.com/@patroashutosh652" target="_blank">
+                    <i class="bi bi-medium"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ashutosh-patro-2054b7239" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://facebook.com/@yourprofile" target="_blank"></a>
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ashutosh Patro. All rights reserved.</p>
+        </div>
+    </footer>    
+    <script src="script.js"></script>
+</body>
+</html>
